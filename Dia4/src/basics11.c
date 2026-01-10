@@ -15,6 +15,6 @@ int can_access_registry(int is_premium, int reputation, int has_2fa) {
 
 
 int main(){
-    char *user1 = can_access_registry(0,99,0);
-
+    int user_permissions = can_access_registry(0,99,0);
+    printf("Verifying Joe's permissions....Joe:%d\n", user_permissions);
 }
