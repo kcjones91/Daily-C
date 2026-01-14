@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 /* Do while example in C
 
     do {
