@@ -11,7 +11,7 @@
 // Function to add shit
 void print_numbers(int start, int end) {
     printf("Printing from %d to %d\n", start, end);
-    for (int i = start; i < end; i++) {
+    for (int i = start; i <= end; i++) {
         printf("%d\n", i);
     }
 }
